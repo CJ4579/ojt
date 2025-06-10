@@ -1,6 +1,7 @@
 // src/pages/Home.jsx
 import React from 'react';
 import './HomePage.css';
+import 'AdmissionPage.jsx';
 
 const Home = () => {
   return (
@@ -15,9 +16,7 @@ const Home = () => {
           <div className="hero-overlay-text">
             <h1>Welcome to Vivekanand College!</h1>
             <p>Your journey to excellence starts here.</p>
-            <a className="btn hero-btn" href="/admissions" data-discover="true">
-              Apply Now!
-            </a>
+             <Link to = "/admissions">Apply now!</Link>
           </div>
         </div>
 
